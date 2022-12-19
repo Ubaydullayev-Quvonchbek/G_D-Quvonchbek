@@ -1,0 +1,758 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+nav {
+    background: #3B3937;
+    height: 120px;
+    display: flex;
+}
+
+.logos {
+    margin-top: 30px;
+}
+
+.list {
+    margin-left: 134px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.list_item a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-right: 36px;
+}
+
+.navp {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFD6A8;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.navp:hover {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFD710;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.nomer {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFD6A8;
+    margin-top: 50px;
+}
+
+.btn1 {
+    background: #A9845C;
+    border: none;
+    width: 120px;
+    height: 40px;
+    margin-top: 45px;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.btn1:hover {
+    background: #3B3937;
+    border: none;
+    width: 120px;
+    height: 40px;
+    margin-top: 45px;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border: 1px solid white;
+    color: #FFD6A8;
+}
+
+/*---------------------------------------------------- section1 start-------------------------------------------- */
+.sectioni1 {
+    margin-top: 20px;
+    background-image: url(./img/back.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+.radius {
+    position: relative;
+    top: 70px;
+    text-align: center;
+    background: url(image.png), linear-gradient(0deg, rgba(198, 156, 109, 0.05), rgba(198, 156, 109, 0.05)), rgba(51, 51, 51, 0.5);
+    backdrop-filter: blur(3.5px);
+    border-radius: 100%;
+    width: 440px;
+    height: 440px;
+    margin: auto;
+}
+
+.radius:hover {
+    background-color: #3e3e3ec6;
+}
+
+.radiush {
+    top: 120px;
+    left: 75px;
+    position: absolute;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.rad {
+    position: absolute;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFD6A8;
+    top: 160px;
+    left: 140px;
+}
+
+.radp {
+    position: absolute;
+    top: 200px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn2 {
+    background: #A9845C;
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    left: 145px;
+    top: 280px;
+}
+
+.cha {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: right;
+    color: #FFFFFF;
+    position: absolute;
+    top: 386px;
+    left: 200px;
+}
+
+.ard {
+    margin-top: 90px;
+    margin-bottom: 120px;
+    width: 620px;
+    height: 550px;
+}
+
+.ardh {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: -0.02em;
+    color: #3B3937;
+    margin-top: 40px;
+    margin-bottom: 19px;
+}
+
+.ardp {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3B3937;
+    margin-bottom: 24px;
+}
+
+.zak {
+    font-weight: 700;
+    font-size: 15px;
+    text-align: right;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #B14101;
+    cursor: pointer;
+}
+
+.zak:hover {
+    font-weight: 700;
+    font-size: 15px;
+    text-align: right;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #3B3937;
+    cursor: pointer;
+}
+
+/* -----------------------------------------section2 start--------------------------- */
+.vit {
+    font-weight: 700;
+    font-size: 62px;
+    letter-spacing: -0.01em;
+    color: #3B3937;
+    margin-bottom: 30px;
+}
+
+.btn3 {
+    border: none;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    width: 297px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #3B3937;
+    opacity: 0.9;
+    margin-bottom: 40px;
+}
+
+.btn3:hover {
+    border: 2px solid #3B3937;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #3B3937;
+}
+
+.bard {
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+.sofia {
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    color: #3B3937;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.money {
+    margin-top: 7px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    color: #3B3937;
+    margin-left: 20px;
+    margin-bottom: 33px;
+}
+
+.b1 {
+    margin-left: 79px;
+    margin-bottom: 23px;
+}
+
+.kup {
+    font-weight: 700;
+    font-size: 15px;
+    text-align: right;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #B14101;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.kup:hover {
+    font-weight: 700;
+    font-size: 15px;
+    text-align: right;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #3B3937;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.pok {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #3B3937;
+    border: 1px solid rgba(68, 68, 68, 0.2);
+    height: 60px;
+    background: transparent;
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+.pok:hover {
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #3B3937;
+    height: 60px;
+    width: 100%;
+    background: transparent;
+    border: 2px solid #3B3937;
+    margin-bottom: 90px;
+}
+
+/* -----------------------------------------section3 start--------------------------- */
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.img_div {
+    width: 640px;
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+.sect_right {
+    background: #F3F0EE;
+    padding-left: 70px;
+    padding-top: 90px;
+    width: 640px;
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+.Нужна {
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: -0.01em;
+    color: #3B3937;
+    margin-bottom: 30px;
+}
+
+.Наши {
+    font-weight: 500;
+    font-size: 22px;
+    color: #3B3937;
+    margin-bottom: 15px;
+}
+
+.input12 {
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    color: #3B3937;
+    opacity: 0.5;
+    width: 240px;
+    height: 60px;
+    padding-left: 23px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.Связаться {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+    padding: 15px 36px;
+    background: #A9845C;
+    border: none;
+}
+
+.Связаться:hover {
+    background: #3B3937;
+    text-transform: uppercase;
+    border: 1px solid #FFD6A8;
+    color: #FFD6A8;
+    box-sizing: border-box;
+}
+
+.статьи {
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: -0.01em;
+    color: #3B3937;
+    margin-bottom: 40px;
+}
+
+.card_one {
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    margin-bottom: 40px;
+}
+
+.card_head {
+    width: 100%;
+}
+
+.card_img {
+    width: 100%;
+}
+
+.дизайн {
+    font-weight: 700;
+    font-size: 21px;
+    letter-spacing: 0.01em;
+    color: #3B3937;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.этой {
+    font-weight: 400;
+    font-size: 12px;
+    color: #3B3937;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.card_foot {
+    width: 370px;
+    margin: auto;
+}
+
+.далее {
+    font-weight: 700;
+    font-size: 12px;
+    color: #B14101;
+    cursor: pointer;
+}
+
+.далее:hover {
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+    color: #3B3937;
+}
+
+.октября {
+    font-weight: 400;
+    font-size: 12px;
+    color: #3B3937;
+    margin-bottom: 30px;
+}
+
+.bottom_uchun {
+    margin-bottom: 60px;
+}
+
+.bottom_uchun2 {
+    margin-bottom: 50px;
+}
+
+.bottom_uchun3 {
+    margin-bottom: 110px;
+}
+
+.mbmbmb {
+    margin-bottom: 50px;
+}
+
+/* -----------------------------------------footer1 start--------------------------- */
+
+.footer1 {
+    background: url(./img/foot\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Фабрика {
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    cursor: pointer;
+    width: 138px;
+    margin-bottom: 170px;
+}
+
+.imgh {
+    margin-top: 80px;
+    margin-bottom: 21px;
+}
+
+.numb {
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-top: 97px;
+    margin-bottom: 38px;
+}
+
+.Полежаевская {
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.Межкомнатные {
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-top: 102.5px;
+}
+
+.Доставка {
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-top: 102.5px;
+}
+
+.karochi_div {
+    position: relative;
+}
+
+.log_ics {
+    position: absolute;
+    top: -10px;
+    left: 190px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 575px) {
+    .nav1 {
+        height: 70px;
+        width: 100%;
+    }
+
+    .ligo {
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+
+    .btn8 {
+        background: #A9845C;
+        width: 100px;
+        height: 27px;
+        border: none;
+        font-weight: 700;
+        font-size: 13px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+        margin-top: 22px;
+        margin-left: 56px;
+    }
+
+    .imges {
+        margin-left: 50px;
+        margin-top: 22px;
+    }
+
+    .sectioni1 {
+        height: 470px;
+    }
+
+    .radius {
+        scale: 0.5;
+        top: 0;
+        left: -30px;
+    }
+
+    .ard {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .ardh {
+        margin-top: 25px;
+        font-weight: 700;
+        font-size: 29px;
+        letter-spacing: -0.02em;
+        color: #3B3937;
+    }
+
+    .ardp {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 130%;
+        color: #3B3937;
+    }
+
+    .zak {
+        font-weight: 700;
+        font-size: 13px;
+        color: #B14101;
+    }
+
+    .vit {
+        margin-top: 15px;
+        font-weight: 700;
+        font-size: 40px;
+        letter-spacing: -0.01em;
+        color: #3B3937;
+    }
+
+    .btn3 {
+        border: none;
+        background: #FFFFFF;
+        border: 1px solid #DADADA;
+        width: 230px;
+        height: 40px;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #3B3937;
+        opacity: 0.9;
+        margin-bottom: 40px;
+    }
+
+    .bard {
+        width: 100%;
+    }
+
+    .img_res1 {
+        width: 100%;
+    }
+
+    .card_res1 {
+        background: #F3F0EE;
+    }
+
+    .радостью {
+        font-weight: 700;
+        font-size: 40px;
+        letter-spacing: -0.01em;
+        color: #3B3937;
+        margin-top: 35px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .телефонаres {
+        font-weight: 500;
+        font-size: 18px;
+        color: #3B3937;
+        padding-bottom: 30px;
+        margin-left: 20px;
+    }
+
+    .card_foot1 {
+        text-align: center;
+        margin: auto;
+    }
+
+    .card_foot {
+        width: 335px;
+    }
+
+    .Связаться {
+        width: 310px;
+        margin-bottom: 25px;
+    }
+
+    .input12 {
+        width: 310px;
+        margin: auto;
+        margin-bottom: 13px;
+    }
+
+    .статьи {
+        font-weight: 700;
+        font-size: 40px;
+        color: #3B3937;
+        margin-top: 60px;
+    }
+
+    .дизайн {
+        margin-left: 10px;
+    }
+
+    .этой {
+        margin-left: 10px;
+    }
+
+    .footer1_res {
+        background: url(./img/ft\ bg\ rres.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .argentina_yutdi {
+        font-weight: 400;
+        font-size: 13px;
+        color: #FFFFFF;
+        opacity: 0.6;
+        cursor: pointer;
+    }
+
+    .col_center {
+        text-align: center;
+    }
+
+    .mbmbmb {
+        margin-bottom: -35px;
+    }
+
+    .logo {
+        margin-bottom: 25px;
+        margin-top: 40px;
+    }
+
+    .argentina_yutdi {
+        margin-bottom: 40px;
+    }
+
+    .numb_res {
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .bgdouf {
+        font-weight: 400;
+        font-size: 13px;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.6;
+        margin-top: 29px;
+        margin-bottom: 50px;
+    }
+
+    .rihe{
+        margin-bottom: 50px;
+    }
+}
