@@ -556,7 +556,7 @@ p {
 
     .ligo {
         margin-top: 15px;
-        margin-left: 25px;
+        margin-left: 0px;
     }
 
     .btn8 {
@@ -570,24 +570,92 @@ p {
         text-transform: uppercase;
         color: #FFFFFF;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+        margin: auto;
         margin-top: 22px;
-        margin-left: 56px;
     }
 
     .imges {
-        margin-left: 20px;
+        width: 71px;
+        margin: auto;
         margin-top: 22px;
+    }
+
+    .radius_uchun {
+        padding-top: 70px;
     }
 
     .sectioni1 {
         height: 470px;
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
     }
 
-    .radius {
-        scale: 0.5;
-        top: 0;
-        left: -30px;
+    .radius2 {
+        text-align: center;
+        background: url(image.png), linear-gradient(0deg, rgba(198, 156, 109, 0.05), rgba(198, 156, 109, 0.05)), rgba(51, 51, 51, 0.5);
+        backdrop-filter: blur(3.5px);
+        border-radius: 100%;
+        width: 230px;
+        height: 230px;
+        margin: auto;
     }
+
+    .radiush2 {
+        font-weight: 700;
+        font-size: 17px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        padding-top: 44px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+    }
+
+    .rad2 {
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #FFD6A8;
+        padding-bottom: 15px;
+    }
+
+    .radp2 {
+        font-weight: 400;
+        font-size: 7px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+
+    .btn22 {
+        background: #A9845C;
+        width: 90px;
+        height: 30px;
+        border: none;
+        font-weight: 700;
+        font-size: 9px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-shadow: 1px 1px 1px rgb(0 0 0 / 25%);
+        margin-bottom: 24px;
+    }
+
+    .cha26 {
+        font-weight: 500;
+        font-size: 11px;
+        color: #FFFFFF;
+    }
+
 
     .ard {
         width: 100%;
@@ -675,16 +743,17 @@ p {
     }
 
     .card_foot {
-        width: 335px;
+        width: 90%;
     }
 
     .Связаться {
-        width: 310px;
+        width: 90%;
+        margin: auto;
         margin-bottom: 25px;
     }
 
     .input12 {
-        width: 310px;
+        width: 90%;
         margin: auto;
         margin-bottom: 13px;
     }
@@ -752,7 +821,25 @@ p {
         margin-bottom: 50px;
     }
 
-    .rihe{
+    .rihe {
         margin-bottom: 50px;
+    }
+
+
+    .bard {
+        background: #FFFFFF;
+        border: 1px solid #DADADA;
+        width: 100%;
+        height: 411px;
+        margin-bottom: 40px;
+    }
+
+    .img_uchun {
+        text-align: center;
+    }
+
+    .b1 {
+        margin-left: 0;
+        margin-bottom: 23px;
     }
 }
