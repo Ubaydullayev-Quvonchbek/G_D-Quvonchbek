@@ -707,7 +707,7 @@ p {
         margin-bottom: 40px;
     }
 
-    .byu{
+    .byu {
         border: none;
         background: #FFFFFF;
         border: 1px solid #DADADA;
@@ -736,7 +736,7 @@ p {
 
     .радостью {
         font-weight: 700;
-        font-size: 40px;
+        font-size: 30px;
         letter-spacing: -0.01em;
         color: #3B3937;
         margin-top: 35px;
@@ -746,7 +746,7 @@ p {
 
     .телефонаres {
         font-weight: 500;
-        font-size: 18px;
+        font-size: 14px;
         color: #3B3937;
         padding-bottom: 30px;
         margin-left: 20px;
@@ -782,10 +782,19 @@ p {
 
     .дизайн {
         margin-left: 10px;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 0.01em;
+        color: #3B3937;
+        margin-top: 30px;
+        margin-bottom: 15px;
     }
 
     .этой {
         margin-left: 10px;
+        font-weight: 400;
+        font-size: 9px;
+        color: #3B3937;
     }
 
     .footer1_res {
