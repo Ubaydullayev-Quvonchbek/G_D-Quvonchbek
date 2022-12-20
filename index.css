@@ -696,7 +696,7 @@ p {
         border: none;
         background: #FFFFFF;
         border: 1px solid #DADADA;
-        width: 230px;
+        width: 100%;
         height: 40px;
         font-weight: 400;
         font-size: 15px;
@@ -711,7 +711,7 @@ p {
         border: none;
         background: #FFFFFF;
         border: 1px solid #DADADA;
-        width: 230px;
+        width: 100%;
         height: 40px;
         font-weight: 400;
         font-size: 15px;
