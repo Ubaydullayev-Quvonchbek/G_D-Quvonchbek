@@ -707,6 +707,21 @@ p {
         margin-bottom: 40px;
     }
 
+    .byu{
+        border: none;
+        background: #FFFFFF;
+        border: 1px solid #DADADA;
+        width: 230px;
+        height: 40px;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #3B3937;
+        opacity: 0.9;
+        margin-bottom: 9px;
+    }
+
     .bard {
         width: 100%;
     }
